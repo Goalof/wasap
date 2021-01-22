@@ -37,7 +37,9 @@ export default (() => {
 			Made on Quarkly
 		</Link>
 		<RawHtml>
-			<script type={"document.ondragstart = noselect; \n// запрет на перетаскивание \ndocument.onselectstart = noselect; \n// запрет на выделение элементов страницы \ndocument.oncontextmenu = noselect; \n// запрет на выведение контекстного меню \nfunction noselect() {return false;} \n"} place={"endOfBody"} rawKey={"6009da73af03b56eef1f96d0"} />
+			<script type={"document.ondragstart = noselect; \n// запрет на перетаскивание \ndocument.onselectstart = noselect; \n// запрет на выделение элементов страницы \ndocument.oncontextmenu = noselect; \n// запрет на выведение контекстного меню \nfunction noselect() {return false;} \n"} src={""} place={"endOfBody"} rawKey={"6009da73af03b56eef1f96d0"}>
+				{"document.ondragstart = noselect; \n// запрет на перетаскивание \ndocument.onselectstart = noselect; \n// запрет на выделение элементов страницы \ndocument.oncontextmenu = noselect; \n// запрет на выведение контекстного меню \nfunction noselect() {return false;} \n"}
+			</script>
 		</RawHtml>
 	</Theme>;
 });
