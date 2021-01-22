@@ -373,9 +373,7 @@ export default (() => {
 			Made on Quarkly
 		</Link>
 		<RawHtml>
-			<script place={"endOfBody"} rawKey={"6009da73af03b56eef1f96d0"}>
-				{"<script type=\"text/javascript\">\ndocument.ondragstart = noselect; \n// запрет на перетаскивание \ndocument.onselectstart = noselect; \n// запрет на выделение элементов страницы \ndocument.oncontextmenu = noselect; \n// запрет на выведение контекстного меню \nfunction noselect() {return false;} \n</script>\n"}
-			</script>
+			<script type={"document.ondragstart = noselect; \n// запрет на перетаскивание \ndocument.onselectstart = noselect; \n// запрет на выделение элементов страницы \ndocument.oncontextmenu = noselect; \n// запрет на выведение контекстного меню \nfunction noselect() {return false;} \n"} place={"endOfBody"} rawKey={"6009da73af03b56eef1f96d0"} />
 		</RawHtml>
 	</Theme>;
 });
