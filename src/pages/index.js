@@ -178,6 +178,66 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
+		<Section padding="140px 0" sm-padding="40px 0" background="url(https://images.unsplash.com/photo-1515600051222-a3c338ff16f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80) center/cover">
+			<Box max-width="240px" padding="50px 80px 80px 50px" background="--color-light" color="--dark">
+				<Text
+					as="h4"
+					font="--base"
+					color="--grey"
+					letter-spacing="1px"
+					text-transform="uppercase"
+					margin="6px 0"
+				>
+					About me
+				</Text>
+				<Text as="h2" font="--headline2" margin="0 0 12px 0">
+					Hey I’m David
+				</Text>
+				<Text font="--base">
+					My name is David R. Moore, born and raised in France, worked as a professional photographer and videographer for more than 10 years, awarded the CDS Documentary Essay Prize in 2018 and Best Photographer of The Year 2019 by Sony World Photography Awards.
+				</Text>
+			</Box>
+		</Section>
+		<Section padding="140px 0" sm-padding="40px 0" background="url(https://images.unsplash.com/photo-1515600051222-a3c338ff16f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80) center/cover">
+			<Box max-width="240px" padding="50px 80px 80px 50px" background="--color-light" color="--dark">
+				<Text
+					as="h4"
+					font="--base"
+					color="--grey"
+					letter-spacing="1px"
+					text-transform="uppercase"
+					margin="6px 0"
+				>
+					About me
+				</Text>
+				<Text as="h2" font="--headline2" margin="0 0 12px 0">
+					Hey I’m David
+				</Text>
+				<Text font="--base">
+					My name is David R. Moore, born and raised in France, worked as a professional photographer and videographer for more than 10 years, awarded the CDS Documentary Essay Prize in 2018 and Best Photographer of The Year 2019 by Sony World Photography Awards.
+				</Text>
+			</Box>
+		</Section>
+		<Section padding="140px 0" sm-padding="40px 0" background="url(https://images.unsplash.com/photo-1515600051222-a3c338ff16f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80) center/cover">
+			<Box max-width="240px" padding="50px 80px 80px 50px" background="--color-light" color="--dark">
+				<Text
+					as="h4"
+					font="--base"
+					color="--grey"
+					letter-spacing="1px"
+					text-transform="uppercase"
+					margin="6px 0"
+				>
+					About me
+				</Text>
+				<Text as="h2" font="--headline2" margin="0 0 12px 0">
+					Hey I’m David
+				</Text>
+				<Text font="--base">
+					My name is David R. Moore, born and raised in France, worked as a professional photographer and videographer for more than 10 years, awarded the CDS Documentary Essay Prize in 2018 and Best Photographer of The Year 2019 by Sony World Photography Awards.
+				</Text>
+			</Box>
+		</Section>
 		<Section
 			padding="60px 0"
 			sm-padding="40px 0"
@@ -314,10 +374,7 @@ export default (() => {
 		</Link>
 		<RawHtml>
 			<script place={"endOfBody"} rawKey={"6009da73af03b56eef1f96d0"}>
-				{"<script>\nfunction ready() {\n    require(['jquery'], function($) {\nSmoothScroll({\n    // Время скролла 400 = 0.4 секунды\n    animationTime    : 800,\n    // Размер шага в пикселях \n    stepSize         : 75,\n\n    // Дополнительные настройки:\n    \n    // Ускорение \n    accelerationDelta : 30,  \n    // Максимальное ускорение\n    accelerationMax   : 2,   \n\n    // Поддержка клавиатуры\n    keyboardSupport   : true,  \n    // Шаг скролла стрелками на клавиатуре в пикселях\n    arrowScroll       : 50,\n\n    // Pulse (less tweakable)\n    // ratio of \"tail\" to \"acceleration\"\n    pulseAlgorithm   : true,\n    pulseScale       : 4,\n    pulseNormalize   : 1,\n\n    // Поддержка тачпада\n    touchpadSupport   : true,\n})\n    });\n} \ndocument.addEventListener(\"DOMContentLoaded\", ready);\n</script>\n\n"}
-			</script>
-			<script place={"endOfHead"} rawKey={"6009de00d53b0e744cc0abc0"}>
-				{"<script src=\"https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js\" integrity=\"sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=\" crossorigin=\"anonymous\">\n</script>\n"}
+				{"<script type=\"text/javascript\">\ndocument.ondragstart = noselect; \n// запрет на перетаскивание \ndocument.onselectstart = noselect; \n// запрет на выделение элементов страницы \ndocument.oncontextmenu = noselect; \n// запрет на выведение контекстного меню \nfunction noselect() {return false;} \n</script>\n"}
 			</script>
 		</RawHtml>
 	</Theme>;
